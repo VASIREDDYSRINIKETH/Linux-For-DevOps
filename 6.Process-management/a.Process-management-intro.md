@@ -107,7 +107,7 @@ This would kill all sleep processes active on the system (the -9 option works he
 | **Compatibility**      | Available on most Linux distributions. | Available on Linux, macOS, and BSD variants. |
 
 
-# PS and TOP Command Options
+## PS and TOP Command Options
 
 ## `ps` Command Options:
 
