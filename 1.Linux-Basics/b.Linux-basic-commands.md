@@ -43,16 +43,26 @@ These essential Linux commands are frequently used by DevOps engineers for syste
 
 11. **top**: Display dynamic real-time information about running processes.
     - Example: `top` (Show running processes and system resource usage)
-
+    - top -d 5 (Every 5 seconds we know the process by default 3sec)
 12. **kill**: Terminate processes by ID.
     - Example: `kill 1234` (Kill the process with ID 1234)
     - Example with options: `kill -9 1234` (Force kill the process with ID 1234)
 
-13. **df**: Display disk space usage.
+13. **df**:(diskfile system) Display disk space usage. and **du**: Display disk usage
     - Example: `df -h` (Display disk usage in human-readable format)
-
+    - The df (disk filesystem) command is used to display the amount of disk space used and available on all mounted filesystems.
+   
+    - `du Command`
+    - The du (disk usage) command estimates file space usage. It can show the disk usage of files and directories.
+    - To show the disk usage of the current directory:
+    - Example: `du -sh .`
+    - The -s option summarizes the total, and the -h option makes the output human-readable.
 14. **free**: Display memory usage.
     - Example: `free -m` (Display memory usage in megabytes)
+    - Options -b (bytes) , -k (kilobytes) -g (gigabytes) -t (display the total memory)
+    - Watch Memory Usage
+    - To continuously watch the memory usage and update every 2 seconds:
+    - Example: `watch -n 2 free -h`
 
 15. **grep**: Search for patterns in files.
     - Example: `grep "error" logfile.log` (Search for 'error' in 'logfile.log')
