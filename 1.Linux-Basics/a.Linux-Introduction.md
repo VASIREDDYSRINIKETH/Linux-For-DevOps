@@ -202,8 +202,6 @@ tar -xzvf archive.tar.gz -C /path/to/extract
 -f: Specify the filename of the archive.
 -C: Specify the directory where files should be extracted.
 
-## 15. How to add a user and give differnt commands based on centos, ubuntu, redhat?
-
 ## 15. How to add a user and give different commands based on CentOS, Ubuntu, Red Hat?
 
 To add a user on Linux systems, you can use the `useradd` command. Below are the commands specific to CentOS, Ubuntu, and Red Hat distributions:
