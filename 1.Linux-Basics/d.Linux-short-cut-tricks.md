@@ -68,3 +68,79 @@
    - Use `uptime` to view system load averages.
 
 These shortcuts and tricks can greatly improve productivity and efficiency when working on a Linux system. Feel free to explore and adapt them to suit your workflow!
+
+9. **Re-run Previous Command with sudo**
+
+If you forget to use `sudo` before running a command that requires elevated privileges, you can quickly re-run it with `sudo !!`.
+
+Example:
+```bash
+$ apt-get install nginx
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+$ sudo !!
+[sudo] password for user:
+Reading package lists... Done
+Building dependency tree...
+Reading state information... Done
+The following additional packages will be installed:
+  ...
+```
+
+
+10. **Automate Confirmation with `yes`**
+
+```markdown
+# Automate Confirmation with `yes`
+```
+To automate confirmation prompts for commands that require manual confirmation, you can use `yes |`.
+
+Example:
+```bash
+$ yes | apt-get install nginx
+Reading package lists... Done
+Building dependency tree...
+Reading state information... Done
+The following additional packages will be installed:
+  ...
+```
+11. **Navigate Command History with `hstr`**
+
+```markdown
+# Navigate Command History with `hstr`
+```
+The `hstr` utility provides an enhanced way to search and navigate your command history interactively.
+
+Example:
+```bash
+$ hstr
+<use arrow keys to navigate through history>
+```
+12. **Monitor System Resources with `glances`**
+
+```markdown
+# Monitor System Resources with `glances`
+```
+Use `glances` to get a comprehensive view of CPU usage, memory usage, disk usage, and top processes.
+
+Example:
+```bash
+$ glances
+<real-time system monitoring output>
+
+```
+
+12. **Start HTTP Server with Python**
+
+```markdown
+# Start HTTP Server with Python
+```
+Easily start an HTTP server using Python on port 8000.
+
+Example:
+```bash
+$ python3 -m http.server
+Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+```
+
