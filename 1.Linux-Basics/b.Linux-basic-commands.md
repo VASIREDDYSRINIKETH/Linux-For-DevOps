@@ -48,16 +48,18 @@ These essential Linux commands are frequently used by DevOps engineers for syste
     - Example: `kill 1234` (Kill the process with ID 1234)
     - Example with options: `kill -9 1234` (Force kill the process with ID 1234)
 
-13. **df**:(diskfile system) Display disk space usage. and **du**: Display disk usage
+13. **df**:(diskfile system) Display disk space usage. and **du**: Display disk usage(used to find file size or directory size)
     - Example: `df -h` (Display disk usage in human-readable format)
     - The df (disk filesystem) command is used to display the amount of disk space used and available on all mounted filesystems.
+    - It also stands for disk free and this command us used to display the details about space used and available on the file system( disk space)
    
     - `du Command`
     - The du (disk usage) command estimates file space usage. It can show the disk usage of files and directories.
     - To show the disk usage of the current directory:
     - Example: `du -sh .`
     - The -s option summarizes the total, and the -h option makes the output human-readable.
-14. **free**: Display memory usage.
+
+14. **free**: Display memory usage. It summary of RAM usage, including total used free, shared and available memory and swap space .This command helps monitor resource usage and allows an admin to determine if there's enough room for running new programs.
     - Example: `free -m` (Display memory usage in megabytes)
     - Options -b (bytes) , -k (kilobytes) -g (gigabytes) -t (display the total memory)
     - Watch Memory Usage
