@@ -568,3 +568,13 @@ sudo yum install packagename      # CentOS/RHEL
 | `<<`     | Here Document: Redirects multiple lines of input to a command. | Here document example with `cat`: <br> `cat << EOF` <br> `line1` <br> `line2` <br> `EOF` |
 | `>>>`    | Redirects the standard error (stderr) of a command to a file, overwriting the file if it exists. | Redirect `stderr` of `ls` to a file: <br> `ls 2> error.log` |
 
+## 36. What is SWAP memory?
+
+Memory is divided into two main types:
+
+RAM (Random Access Memory): This is primary memory where data and processes are stored temporarily while the system is running. RAM is fast but volatile, meaning its contents are lost when the computer is turned off.
+
+ROM (Read-Only Memory): This is secondary memory used for long-term storage of files, such as audio files and images. ROM retains its contents even when the computer is powered off.
+
+Swap memory acts as a substitute for RAM when the system's physical memory (RAM) is fully utilized. It allows the operating system to use secondary storage (like the hard drive) to temporarily hold data that would normally reside in RAM. This helps prevent system slowdowns or crashes when the demand for memory exceeds the available physical RAM.
+
