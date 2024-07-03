@@ -149,6 +149,7 @@ These essential Linux commands are frequently used by DevOps engineers for syste
 37. **uname**: Display system information.
     - Example: `uname -a` (Show all system information)
     - Example with options: `uname -mrs` (Show machine, kernel release, and system architecture)
+    - lsb_release -a
 
 38. **hostname**: Display or set the system hostname.
     - Example: `hostname` (Display the hostname)
@@ -162,6 +163,7 @@ These essential Linux commands are frequently used by DevOps engineers for syste
 
 41. **who**: Display information about who is logged on.
     - Example: `who` (Show who is logged in)
+    - who log in last (`last` or last username`)
 
 42. **uptime**: Show how long the system has been running.
     - Example: `uptime` (Show system uptime)
@@ -177,9 +179,11 @@ These essential Linux commands are frequently used by DevOps engineers for syste
 
 46. **sort**: Sort lines of text files.
     - Example: `sort file.txt` (Sort the lines in 'file.txt')
+    - in reverse order `sort -r` file name
 
 47. **uniq**: Report or omit repeated lines in a file.
     - Example: `uniq file.txt` (Display unique lines in 'file.txt')
+    - uniq -c to know how many occurance
 
 48. **awk**: A versatile programming language for working on files.
     - Example: `awk '{print $1}' file.txt` (Print the first column of 'file.txt')
