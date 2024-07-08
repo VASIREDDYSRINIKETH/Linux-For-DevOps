@@ -266,6 +266,8 @@ These commands should cover most tasks related to user and group management on a
 
 ## sudoers file task 
 
+[sudo and the sudoers file tutorial](https://www.hostinger.in/tutorials/sudo-and-the-sudoers-file/)
+
 
 Managing the sudoers file on a Linux system is crucial for granting and controlling administrative privileges. The sudoers file (/etc/sudoers) defines which users and groups are granted sudo privileges, specifying what commands they can run and under what conditions. Here are some tasks related to managing the sudoers file:
 
