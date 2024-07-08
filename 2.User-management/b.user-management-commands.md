@@ -35,9 +35,10 @@ su root: This command is used to switch to the root user by starting a new shell
 
 ## Check Currently Logged Users
 
-- `who`: Displays information about currently logged in users.
+- `who`: The who command shows a list of all users currently logged into the system
 - `who -H`: Same as above, but with headers.
-- `w`: Displays information about currently logged in users.
+- `w`: Displays information about currently logged in users. The w command shows a detailed list of users currently logged in and what they are doing.
+- The `whoami` command shows the username of the current logged-in user.
 
 ## Setting Passwords
 
