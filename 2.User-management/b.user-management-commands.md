@@ -80,6 +80,10 @@ The `usermod` command in Linux is used to modify various attributes of an existi
 - `-u`: Changes the user's UID (User ID).
   - Example: `sudo usermod -u 1002 username`
 
+-`-l` : rename the username
+  - Example: `sudo usermod -l new_username old_username`
+
+
 - `-aG`: Adds the user to supplementary groups without removing existing group memberships.
   - Example: `sudo usermod -aG newgroup username`
 
